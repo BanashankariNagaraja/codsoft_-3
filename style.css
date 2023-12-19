@@ -1,0 +1,162 @@
+*
+{
+    padding:0;
+    margin:0;
+	font-family:sans-serif;
+}
+
+nav
+{
+    position:fixed;
+    background-color:lightgrey;
+    height:70px;
+    width:100%;
+    z-index:1;
+}
+
+.image
+{
+	background:url(colorc.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	width:100%;
+	height:100%;
+}
+
+.color
+{
+    font-size: 25px;
+    position:relative;
+    left:5%;
+    color:purple;
+    font-weight:bold ;
+    font-family:lucida handwriting;
+    line-height:70px;
+}
+
+ul
+{
+    position:relative;
+    float:right;
+    margin-right:22px;
+}
+
+ul li
+{
+    display:inline-block;
+    line-height:70px;
+    margin:0 6px;
+}
+
+ul li a
+{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+	text-transform:uppercase;
+	right:6%;
+	font-family:lucida handwriting;
+}
+
+ul li a:hover
+{
+	color:purple;
+	transition:2s;
+	
+}
+
+.active
+{
+	color:white;
+	transition:2s;
+}
+
+.text
+{
+    padding-top:60px;
+    top: 45%;
+    left: 30%;
+}
+
+.text h1
+{
+	 position:fixed;
+    top:15%;
+    left:10%;
+    color:midnightblue;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 70px;
+    
+}
+
+.text p
+{
+	top:28%;
+	left:6%;
+	padding-right:60px;
+	padding-left:80px;
+	font-size:20px;
+	position:absolute;
+	
+}
+
+
+
+button
+{
+     top:37%;
+	left:15%;
+	padding-right:20px;
+	padding-left:20px;
+	font-size:20px;
+	position:fixed;
+	color:purple;
+	display:block;
+	border-radius:35px;
+	
+	background:inherit;
+}
+
+button:hover
+{
+	background:white;
+		
+}
+
+.text .icons
+{
+	
+	left:21%;
+	top:37%;
+	bottom:42%;
+	padding-right:60px;
+	padding-left:80px;
+	font-size:20px;
+	position:fixed;
+	
+}
+
+
+.icons .fa-instagram
+{
+	font-size:20px;
+	color:red;
+}
+.icons .fa-facebook
+{
+	font-size:20px;
+	color:blue;
+}
+.icons .fa-youtube
+{
+	font-size:20px;
+	color:red;
+}
+.icons .fa-twitter
+{
+	font-size:20px;
+	color:blue;
+}
+
+
